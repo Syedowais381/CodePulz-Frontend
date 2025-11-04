@@ -8,7 +8,8 @@ const languages = [
 ];
 
 const defaultCode = {
-  java: `public class Main {
+  java: `//Note: keep the public class name as "Main"
+  public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("Enter a number:");
